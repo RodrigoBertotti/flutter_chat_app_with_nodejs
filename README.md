@@ -1,7 +1,7 @@
 # Flutter Chat App with Node.js, WebSockets and MySQL
 
 A Flutter Chat App that supports live video and audio calls
-streaming with WebRTC, built with Node.js, MySQL and WebSockets.
+streaming with WebRTC, built with Node.js, MySQL, and WebSockets.
 
 This is a Flutter Chat App without Firebase, but if it doesn't fit for you,
 it can still be an example of a template to build your Flutter Chat UI
@@ -11,11 +11,13 @@ for streaming data changes to the Flutter App
 through WebSockets, 
 so the Flutter widgets are updated in realtime.
 
-Because of this project uses TypeORM, you can easily change the db to make this
+Because this project uses TypeORM, you can easily change the database to make this
 a Flutter Chat App with PostgreSQL, rather than with MySQL
 
 The text messages are also saved in the user device with [Hive](https://pub.dev/packages/hive), 
 so the user doesn't need to be connected to the internet to see his received messages.
+
+https://github.com/RodrigoBertotti/flutter_chat_app_with_nodejs/assets/15431956/5db4463f-2dc5-478d-820d-e083abe41ef5
 
 ## Getting started
 
@@ -39,7 +41,7 @@ don't commit this file to your repository as well.
 
 7. Run `flutter pub get` to get the Flutter dependencies
 
-8. Run the Flutter project in your device :) 
+8. Run the Flutter project on your device :) 
 
 ## Issues
 
