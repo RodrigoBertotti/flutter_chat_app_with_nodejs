@@ -1,0 +1,6 @@
+
+
+enum ModelSource {
+  localStorage,
+  server,
+}

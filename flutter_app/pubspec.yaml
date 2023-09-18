@@ -1,0 +1,89 @@
+name: flutter_chat_app_with_mysql
+description: A Flutter Chat App without Firebase andwith MySQL #TODO!
+
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.18.1
+  dartz: ^0.10.1
+  get_it: ^7.6.4
+  crypto: ^3.0.3
+  hive_flutter: ^1.1.0
+  random_string: ^2.3.1
+  flutter_keyboard_visibility: ^5.4.1
+  askless: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+  # start askless
+  injectable_generator: ^2.4.0
+  build_runner: ^2.4.6
+  # end askless
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/RedHatDisplay/
+
+  fonts:
+    - family: RedHatDisplay
+      fonts:
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Light.ttf
+          weight: 100
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-LightItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Light.ttf
+          weight: 200
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-LightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Italic.ttf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-MediumItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf
+          weight: 500
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-SemiBoldItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf
+          weight: 700
+          style: normal
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-ExtraBoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-BlackItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-BlackItalic.ttf
+          weight: 800
+          style: italic

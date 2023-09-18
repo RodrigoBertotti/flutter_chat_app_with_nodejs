@@ -1,0 +1,26 @@
+{
+   "name": "chat_with_mysql_backend",
+   "version": "1.0.0",
+   "scripts": {
+      "build": "tsc && cpx \"src/environment/**\" \"build/src/environment\"",
+      "dev": "nodemon --exec ts-node src/index.ts",
+      "start": "ts-node src/index.ts"
+   },
+   "dependencies": {
+      "bcrypt": "^5.1.1",
+      "bufferutil": "^4.0.7",
+      "jsonwebtoken": "^9.0.2",
+      "mysql": "^2.18.1",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.17",
+      "utf-8-validate": "^6.0.3",
+      "askless": "^2.0.3"
+   },
+   "devDependencies": {
+      "@types/node": "^20.5.9",
+      "cpx": "^1.5.0",
+      "nodemon": "^3.0.1",
+      "ts-node": "10.9.1",
+      "typescript": "5.2.2"
+   }
+}

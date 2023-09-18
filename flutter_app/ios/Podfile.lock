@@ -1,0 +1,62 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - DTTJailbreakDetection (0.4.0)
+  - Flutter (1.0.0)
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
+  - flutter_webrtc (0.9.36):
+    - Flutter
+    - WebRTC-SDK (= 114.5735.02)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - ReachabilitySwift (5.0.0)
+  - safe_device (1.0.0):
+    - DTTJailbreakDetection
+    - Flutter
+  - WebRTC-SDK (114.5735.02)
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - safe_device (from `.symlinks/plugins/safe_device/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DTTJailbreakDetection
+    - ReachabilitySwift
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  safe_device:
+    :path: ".symlinks/plugins/safe_device/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: 07c49e96d7fc92bc9920617b83238c4d178b446a
+  DTTJailbreakDetection: 5e356c5badc17995f65a83ed9483f787a0057b71
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  flutter_webrtc: 1944895d4e908c4bc722929dc4b9f8620d8e1b2f
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  safe_device: 4539eb6bdbeb4b61a763a51c4e73e6b37dea4e3d
+  WebRTC-SDK: dd913fd31cfbf1d43b9a22d83f4c6354c960c623
+
+PODFILE CHECKSUM: 78e6df5e729af295e7ef6095bb64cbfff1a5b1b0
+
+COCOAPODS: 1.11.3

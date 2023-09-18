@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_keyboard_visibility_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/flutter_webrtc/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
