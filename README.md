@@ -17,7 +17,9 @@ a Flutter Chat App with PostgreSQL, rather than with MySQL
 The text messages are also saved in the user device with [Hive](https://pub.dev/packages/hive), 
 so the user doesn't need to be connected to the internet to see his received messages.
 
-https://github.com/RodrigoBertotti/flutter_chat_app_with_nodejs/assets/15431956/5db4463f-2dc5-478d-820d-e083abe41ef5
+https://github.com/RodrigoBertotti/flutter_chat_app_with_nodejs/assets/15431956/42428123-76ab-4c5c-8ba1-29321d11b74b
+
+<sup> 🔊 The video above contains audio, click on the right side to turn it on</sup>
 
 ## Getting started
 
