@@ -1,5 +1,5 @@
 name: flutter_chat_app_with_mysql
-description: A Flutter Chat App without Firebase andwith MySQL #TODO!
+description: A Flutter Chat App with Node.js, WebSockets and MySQL
 
 publish_to: 'none'
 version: 1.0.0+1
