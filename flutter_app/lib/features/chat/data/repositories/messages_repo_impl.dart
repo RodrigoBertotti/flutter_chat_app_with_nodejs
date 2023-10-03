@@ -75,14 +75,6 @@ class MessagesRepoImpl extends MessagesRepo {
     }
   }
 
-  /// IGNORAR POR ENQUANTO
-  // percebi agora, não fiz commit, se você separar no backend, vai acabar tornando complexo no front-end
-  // talvez o ideal seja deixar tudo junto no backend, resultado de conversations, resultado de chat items
-  // o problema é como o backend vai fazer o cache, e vai ter que ser enviadas todas as mensagens do banco novamente?
-  // talvez a solução seja: (???)
-  // - stream last message (tudo numa coisa só) (uma mensagem sempre) para conversations
-  // - stream mensagem individual + user is typing (ajustar para ficar tudo numa coisa só também)
-
   StreamController<List<ConversationEntity>>? _allConversationsStreamController;
   StreamSubscription<List<int>>? conversationsUsersIdsSubscription;
   final Map<int,StreamSubscription<ConversationEntity>> _listeningToIndividualConversationsByUserId = {};
