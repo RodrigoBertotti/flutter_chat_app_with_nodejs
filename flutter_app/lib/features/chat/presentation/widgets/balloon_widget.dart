@@ -25,7 +25,7 @@ class BalloonWidget extends StatelessWidget {
           child: Container(
             width: kWidth,
             height: kHeight,
-            color: isLeftSide ? Colors.white : Colors.indigo,
+            color: isLeftSide ? Colors.white : Colors.indigo[700],
           ),
         ),
       ),
