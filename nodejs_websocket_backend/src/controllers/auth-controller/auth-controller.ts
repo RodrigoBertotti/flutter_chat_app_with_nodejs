@@ -1,26 +1,11 @@
 import {AuthService} from "../../domain/services/auth-service";
 import {authService, Controller} from "../../domain/controllers-and-services";
-import {verifyJwtAccessToken} from "../../utils/jwt-utils";
 import {TokensModel} from "../../data/models/tokens-model";
 import {AsklessServer, Authenticate} from "askless";
 
 export class AuthController implements Controller {
 
     constructor(private readonly authService:AuthService) {}
-
-    readonly authenticate: Authenticate<number> = async (credential, accept, reject) : Promise<void> => {
-        if (credential && credential["accessToken"]) {
-            const result = verifyJwtAccessToken(credential["accessToken"]);
-            if (!result.valid) {
-                reject({credentialErrorCode: "EXPIRED_ACCESS_TOKEN"});
-                return;
-            }
-            accept.asAuthenticatedUser({ userId: result.userId, claims: result.claims, locals: result.locals });
-            return;
-        }
-
-        reject({credentialErrorCode: "MISSING_CREDENTIAL"});
-    }
 
     initializeRoutes (server: AsklessServer<number>) : void {
         server.addRoute.forAuthenticatedUsers.create({
