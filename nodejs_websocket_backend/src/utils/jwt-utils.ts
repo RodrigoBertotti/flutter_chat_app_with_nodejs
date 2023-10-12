@@ -19,7 +19,7 @@ export function verifyJwtAccessToken(jwtAccessToken:string) : { userId?:number, 
         const res = jwt.verify(jwtAccessToken, privateKey);
         return {
             valid: true,
-            userId: res.userId,
+            userId: (res as any).userId,
             // optionally set the user claims and locals here
             claims: [],
             locals: {},
