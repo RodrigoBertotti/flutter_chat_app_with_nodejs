@@ -1,4 +1,4 @@
-package com.wisetap.flutter_chat_app_with_mysql.flutter_chat_app_with_mysql
+package com.example.flutter_chat_app_with_mysql.flutter_chat_app_with_mysql
 
 import io.flutter.embedding.android.FlutterActivity
 
