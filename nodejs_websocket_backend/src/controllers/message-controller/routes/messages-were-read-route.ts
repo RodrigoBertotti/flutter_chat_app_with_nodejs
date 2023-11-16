@@ -18,7 +18,8 @@ export class MessagesWereReadRoute {
                 console.log(`lastMessageReadHasBeenReceivedAtMsSinceEpoch: ${lastMessageReadHasBeenReceivedAtMsSinceEpoch}`);
                 const senderUserId:number = parseInt(context.body['senderUserId'] as any);
 
-                const readAt = await messagesService.notifyMessagesWereRead(loggedUserId, senderUserId, new Date(lastMessageReadHasBeenReceivedAtMsSinceEpoch));
+                const differentDeviceTimeSpan = 15 * 1000;
+                const readAt = await messagesService.notifyMessagesWereRead(loggedUserId, senderUserId, new Date(lastMessageReadHasBeenReceivedAtMsSinceEpoch + differentDeviceTimeSpan));
 
                 context.successCallback({ readAt: readAt });
             },
