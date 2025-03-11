@@ -60,16 +60,6 @@ You can edit WebRTC configuration on the `flutter_app/lib/core/data/data_sources
 
 For the Firebase version of this Chat, [click here](https://github.com/RodrigoBertotti/flutter_group_chat_app_with_firebase)
 
-## Issues
-
-Feel free to open an issue about:
-
-- :grey_question: questions
-
-- :bulb: suggestions
-
-- :ant: potential bugs
-
 ## License
 
 [MIT](LICENSE)
